@@ -120,6 +120,12 @@ open class BaseRow: BaseRowType {
      Method that reloads the cell
      */
     open func updateCell() {}
+    
+    /**
+     Method that can assist in specialize or custom Row and Cell destruction
+     */
+    open func beingRemovedFromForm() {
+    }
 
     /**
      Method called when the cell belonging to this row was selected. Must call the corresponding method in its cell.
@@ -236,6 +242,7 @@ extension BaseRow {
             section?.form?.tagToValues[t] = nil
         }
         removeFromRowObservers()
+        beingRemovedFromForm()
     }
 
     final func willBeRemovedFromSection() {
