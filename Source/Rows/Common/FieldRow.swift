@@ -25,6 +25,14 @@
 import Foundation
 import UIKit
 
+public class EUTextField: UITextField {
+    var _inputViewController : UIInputViewController?
+    override public var inputViewController: UIInputViewController?{
+        get { return _inputViewController }
+        set { _inputViewController = newValue }
+    }
+}
+
 public protocol InputTypeInitiable {
     init?(string stringValue: String)
 }
@@ -119,7 +127,7 @@ public protocol TextInputCell {
 }
 
 public protocol TextFieldCell: TextInputCell {
-    var textField: UITextField! { get }
+    var textField: EUTextField! { get }
 }
 
 extension TextFieldCell {
@@ -131,7 +139,7 @@ extension TextFieldCell {
 
 open class _FieldCell<T> : Cell<T>, UITextFieldDelegate, TextFieldCell where T: Equatable, T: InputTypeInitiable {
 
-    @IBOutlet public weak var textField: UITextField!
+    @IBOutlet public weak var textField: EUTextField!
     @IBOutlet public weak var titleLabel: UILabel?
 
     fileprivate var observingTitleText = false
@@ -143,7 +151,7 @@ open class _FieldCell<T> : Cell<T>, UITextFieldDelegate, TextFieldCell where T: 
 
     public required init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 
-        let textField = UITextField()
+        let textField = EUTextField()
         self.textField = textField
         textField.translatesAutoresizingMaskIntoConstraints = false
 
