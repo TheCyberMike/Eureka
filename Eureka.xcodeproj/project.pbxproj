@@ -92,6 +92,39 @@
 		B244E6541FE1C94F0026B944 /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B244E6531FE1C94F0026B944 /* AlertOptionsRow.swift */; };
 		B257FE2E1EC0F66900043911 /* RowsInsertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257FE2D1EC0F66900043911 /* RowsInsertionTests.swift */; };
 		B2A401161EC0BA140042EDF0 /* SectionsInsertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A401151EC0BA140042EDF0 /* SectionsInsertionTests.swift */; };
+		D7BA6BE021EF8CF200F45AFC /* AddressComponentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BBC21EF8CF200F45AFC /* AddressComponentsRow.swift */; };
+		D7BA6BE121EF8CF200F45AFC /* AddtlFieldRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BBD21EF8CF200F45AFC /* AddtlFieldRows.swift */; };
+		D7BA6BE221EF8CF200F45AFC /* ATHMultiSelectionControlSegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BBE21EF8CF200F45AFC /* ATHMultiSelectionControlSegmentButton.swift */; };
+		D7BA6BE321EF8CF200F45AFC /* ATHMultiSelectionSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BBF21EF8CF200F45AFC /* ATHMultiSelectionSegmentedControl.swift */; };
+		D7BA6BE421EF8CF200F45AFC /* CheckButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BC021EF8CF200F45AFC /* CheckButtonRow.swift */; };
+		D7BA6BE521EF8CF200F45AFC /* Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BA6BC121EF8CF200F45AFC /* Checkmark@2x.png */; };
+		D7BA6BE621EF8CF200F45AFC /* Checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BA6BC221EF8CF200F45AFC /* Checkmark@3x.png */; };
+		D7BA6BE721EF8CF200F45AFC /* Checkmarkempty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BA6BC321EF8CF200F45AFC /* Checkmarkempty@2x.png */; };
+		D7BA6BE821EF8CF200F45AFC /* Checkmarkempty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BA6BC421EF8CF200F45AFC /* Checkmarkempty@3x.png */; };
+		D7BA6BE921EF8CF200F45AFC /* ColorPalettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BC621EF8CF200F45AFC /* ColorPalettes.swift */; };
+		D7BA6BEA21EF8CF200F45AFC /* ColorPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BC721EF8CF200F45AFC /* ColorPickerRow.swift */; };
+		D7BA6BEB21EF8CF200F45AFC /* ColorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BC821EF8CF200F45AFC /* ColorRow.swift */; };
+		D7BA6BEC21EF8CF200F45AFC /* ColorSwatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BC921EF8CF200F45AFC /* ColorSwatchCell.swift */; };
+		D7BA6BED21EF8CF200F45AFC /* ColorSwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCA21EF8CF200F45AFC /* ColorSwatchView.swift */; };
+		D7BA6BEE21EF8CF200F45AFC /* InlineColorPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCB21EF8CF200F45AFC /* InlineColorPickerRow.swift */; };
+		D7BA6BEF21EF8CF200F45AFC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCC21EF8CF200F45AFC /* UIColorExtension.swift */; };
+		D7BA6BF021EF8CF200F45AFC /* eCC_Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCD21EF8CF200F45AFC /* eCC_Helpers.swift */; };
+		D7BA6BF121EF8CF200F45AFC /* eCC_NameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCE21EF8CF200F45AFC /* eCC_NameRow.swift */; };
+		D7BA6BF221EF8CF200F45AFC /* FontPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BCF21EF8CF200F45AFC /* FontPickerRow.swift */; };
+		D7BA6BF321EF8CF200F45AFC /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD121EF8CF200F45AFC /* ImageCell.swift */; };
+		D7BA6BF421EF8CF200F45AFC /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD221EF8CF200F45AFC /* ImagePickerController.swift */; };
+		D7BA6BF521EF8CF200F45AFC /* ImageRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BA6BD321EF8CF200F45AFC /* ImageRow.h */; };
+		D7BA6BF621EF8CF200F45AFC /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD421EF8CF200F45AFC /* ImageRow.swift */; };
+		D7BA6BF721EF8CF200F45AFC /* NameComponentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD521EF8CF200F45AFC /* NameComponentsRow.swift */; };
+		D7BA6BF821EF8CF200F45AFC /* PhoneComponentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD621EF8CF200F45AFC /* PhoneComponentsRow.swift */; };
+		D7BA6BF921EF8CF200F45AFC /* RuleValidChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD721EF8CF200F45AFC /* RuleValidChars.swift */; };
+		D7BA6BFA21EF8CF200F45AFC /* SegmentedRowExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BD821EF8CF200F45AFC /* SegmentedRowExt.swift */; };
+		D7BA6BFB21EF8CF200F45AFC /* SplitRow.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BA6BDA21EF8CF200F45AFC /* SplitRow.h */; };
+		D7BA6BFC21EF8CF200F45AFC /* SplitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BDB21EF8CF200F45AFC /* SplitRow.swift */; };
+		D7BA6BFD21EF8CF200F45AFC /* SplitRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BDC21EF8CF200F45AFC /* SplitRowCell.swift */; };
+		D7BA6BFE21EF8CF200F45AFC /* SplitRowCellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BDD21EF8CF200F45AFC /* SplitRowCellTableView.swift */; };
+		D7BA6BFF21EF8CF200F45AFC /* SplitRowValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BDE21EF8CF200F45AFC /* SplitRowValue.swift */; };
+		D7BA6C0021EF8CF200F45AFC /* TextAreaRowExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA6BDF21EF8CF200F45AFC /* TextAreaRowExt.swift */; };
 		FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +227,39 @@
 		B244E6531FE1C94F0026B944 /* AlertOptionsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
 		B257FE2D1EC0F66900043911 /* RowsInsertionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowsInsertionTests.swift; path = Tests/RowsInsertionTests.swift; sourceTree = SOURCE_ROOT; };
 		B2A401151EC0BA140042EDF0 /* SectionsInsertionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionsInsertionTests.swift; path = Tests/SectionsInsertionTests.swift; sourceTree = SOURCE_ROOT; };
+		D7BA6BBC21EF8CF200F45AFC /* AddressComponentsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressComponentsRow.swift; sourceTree = "<group>"; };
+		D7BA6BBD21EF8CF200F45AFC /* AddtlFieldRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddtlFieldRows.swift; sourceTree = "<group>"; };
+		D7BA6BBE21EF8CF200F45AFC /* ATHMultiSelectionControlSegmentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATHMultiSelectionControlSegmentButton.swift; sourceTree = "<group>"; };
+		D7BA6BBF21EF8CF200F45AFC /* ATHMultiSelectionSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATHMultiSelectionSegmentedControl.swift; sourceTree = "<group>"; };
+		D7BA6BC021EF8CF200F45AFC /* CheckButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckButtonRow.swift; sourceTree = "<group>"; };
+		D7BA6BC121EF8CF200F45AFC /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
+		D7BA6BC221EF8CF200F45AFC /* Checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@3x.png"; sourceTree = "<group>"; };
+		D7BA6BC321EF8CF200F45AFC /* Checkmarkempty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmarkempty@2x.png"; sourceTree = "<group>"; };
+		D7BA6BC421EF8CF200F45AFC /* Checkmarkempty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmarkempty@3x.png"; sourceTree = "<group>"; };
+		D7BA6BC621EF8CF200F45AFC /* ColorPalettes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalettes.swift; sourceTree = "<group>"; };
+		D7BA6BC721EF8CF200F45AFC /* ColorPickerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerRow.swift; sourceTree = "<group>"; };
+		D7BA6BC821EF8CF200F45AFC /* ColorRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRow.swift; sourceTree = "<group>"; };
+		D7BA6BC921EF8CF200F45AFC /* ColorSwatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchCell.swift; sourceTree = "<group>"; };
+		D7BA6BCA21EF8CF200F45AFC /* ColorSwatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchView.swift; sourceTree = "<group>"; };
+		D7BA6BCB21EF8CF200F45AFC /* InlineColorPickerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineColorPickerRow.swift; sourceTree = "<group>"; };
+		D7BA6BCC21EF8CF200F45AFC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D7BA6BCD21EF8CF200F45AFC /* eCC_Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eCC_Helpers.swift; sourceTree = "<group>"; };
+		D7BA6BCE21EF8CF200F45AFC /* eCC_NameRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eCC_NameRow.swift; sourceTree = "<group>"; };
+		D7BA6BCF21EF8CF200F45AFC /* FontPickerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontPickerRow.swift; sourceTree = "<group>"; };
+		D7BA6BD121EF8CF200F45AFC /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		D7BA6BD221EF8CF200F45AFC /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		D7BA6BD321EF8CF200F45AFC /* ImageRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRow.h; sourceTree = "<group>"; };
+		D7BA6BD421EF8CF200F45AFC /* ImageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		D7BA6BD521EF8CF200F45AFC /* NameComponentsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameComponentsRow.swift; sourceTree = "<group>"; };
+		D7BA6BD621EF8CF200F45AFC /* PhoneComponentsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneComponentsRow.swift; sourceTree = "<group>"; };
+		D7BA6BD721EF8CF200F45AFC /* RuleValidChars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleValidChars.swift; sourceTree = "<group>"; };
+		D7BA6BD821EF8CF200F45AFC /* SegmentedRowExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedRowExt.swift; sourceTree = "<group>"; };
+		D7BA6BDA21EF8CF200F45AFC /* SplitRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitRow.h; sourceTree = "<group>"; };
+		D7BA6BDB21EF8CF200F45AFC /* SplitRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitRow.swift; sourceTree = "<group>"; };
+		D7BA6BDC21EF8CF200F45AFC /* SplitRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitRowCell.swift; sourceTree = "<group>"; };
+		D7BA6BDD21EF8CF200F45AFC /* SplitRowCellTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitRowCellTableView.swift; sourceTree = "<group>"; };
+		D7BA6BDE21EF8CF200F45AFC /* SplitRowValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitRowValue.swift; sourceTree = "<group>"; };
+		D7BA6BDF21EF8CF200F45AFC /* TextAreaRowExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAreaRowExt.swift; sourceTree = "<group>"; };
 		FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -350,6 +416,7 @@
 		51729DED1B9A4F5E004A00EB /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D7BA6BBB21EF8CF200F45AFC /* Eureka eContact Collect */,
 				2859CD901C7CF1FD0002982F /* Core */,
 				2859CD971C7CF2020002982F /* Rows */,
 				287E7D7C1D62552C0065F4DE /* Validations */,
@@ -394,6 +461,71 @@
 			path = Source/Resources;
 			sourceTree = SOURCE_ROOT;
 		};
+		D7BA6BBB21EF8CF200F45AFC /* Eureka eContact Collect */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA6BBC21EF8CF200F45AFC /* AddressComponentsRow.swift */,
+				D7BA6BBD21EF8CF200F45AFC /* AddtlFieldRows.swift */,
+				D7BA6BBE21EF8CF200F45AFC /* ATHMultiSelectionControlSegmentButton.swift */,
+				D7BA6BBF21EF8CF200F45AFC /* ATHMultiSelectionSegmentedControl.swift */,
+				D7BA6BC021EF8CF200F45AFC /* CheckButtonRow.swift */,
+				D7BA6BC121EF8CF200F45AFC /* Checkmark@2x.png */,
+				D7BA6BC221EF8CF200F45AFC /* Checkmark@3x.png */,
+				D7BA6BC321EF8CF200F45AFC /* Checkmarkempty@2x.png */,
+				D7BA6BC421EF8CF200F45AFC /* Checkmarkempty@3x.png */,
+				D7BA6BC521EF8CF200F45AFC /* ColorPickerRow */,
+				D7BA6BCD21EF8CF200F45AFC /* eCC_Helpers.swift */,
+				D7BA6BCE21EF8CF200F45AFC /* eCC_NameRow.swift */,
+				D7BA6BCF21EF8CF200F45AFC /* FontPickerRow.swift */,
+				D7BA6BD021EF8CF200F45AFC /* ImageRow */,
+				D7BA6BD521EF8CF200F45AFC /* NameComponentsRow.swift */,
+				D7BA6BD621EF8CF200F45AFC /* PhoneComponentsRow.swift */,
+				D7BA6BD721EF8CF200F45AFC /* RuleValidChars.swift */,
+				D7BA6BD821EF8CF200F45AFC /* SegmentedRowExt.swift */,
+				D7BA6BD921EF8CF200F45AFC /* SplitRow */,
+				D7BA6BDF21EF8CF200F45AFC /* TextAreaRowExt.swift */,
+			);
+			name = "Eureka eContact Collect";
+			path = "../../../eContact Collect Module/eContact Collect/Code/UI/Eureka eContact Collect";
+			sourceTree = "<group>";
+		};
+		D7BA6BC521EF8CF200F45AFC /* ColorPickerRow */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA6BC621EF8CF200F45AFC /* ColorPalettes.swift */,
+				D7BA6BC721EF8CF200F45AFC /* ColorPickerRow.swift */,
+				D7BA6BC821EF8CF200F45AFC /* ColorRow.swift */,
+				D7BA6BC921EF8CF200F45AFC /* ColorSwatchCell.swift */,
+				D7BA6BCA21EF8CF200F45AFC /* ColorSwatchView.swift */,
+				D7BA6BCB21EF8CF200F45AFC /* InlineColorPickerRow.swift */,
+				D7BA6BCC21EF8CF200F45AFC /* UIColorExtension.swift */,
+			);
+			path = ColorPickerRow;
+			sourceTree = "<group>";
+		};
+		D7BA6BD021EF8CF200F45AFC /* ImageRow */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA6BD121EF8CF200F45AFC /* ImageCell.swift */,
+				D7BA6BD221EF8CF200F45AFC /* ImagePickerController.swift */,
+				D7BA6BD321EF8CF200F45AFC /* ImageRow.h */,
+				D7BA6BD421EF8CF200F45AFC /* ImageRow.swift */,
+			);
+			path = ImageRow;
+			sourceTree = "<group>";
+		};
+		D7BA6BD921EF8CF200F45AFC /* SplitRow */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA6BDA21EF8CF200F45AFC /* SplitRow.h */,
+				D7BA6BDB21EF8CF200F45AFC /* SplitRow.swift */,
+				D7BA6BDC21EF8CF200F45AFC /* SplitRowCell.swift */,
+				D7BA6BDD21EF8CF200F45AFC /* SplitRowCellTableView.swift */,
+				D7BA6BDE21EF8CF200F45AFC /* SplitRowValue.swift */,
+			);
+			path = SplitRow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -402,6 +534,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51729E671B9A5FA5004A00EB /* Eureka.h in Headers */,
+				D7BA6BF521EF8CF200F45AFC /* ImageRow.h in Headers */,
+				D7BA6BFB21EF8CF200F45AFC /* SplitRow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,8 +624,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BA6BE521EF8CF200F45AFC /* Checkmark@2x.png in Resources */,
 				8690E4BE1CFDE062004CDB1C /* Eureka.bundle in Resources */,
+				D7BA6BE721EF8CF200F45AFC /* Checkmarkempty@2x.png in Resources */,
+				D7BA6BE821EF8CF200F45AFC /* Checkmarkempty@3x.png in Resources */,
 				28B12FD51BA0E83C00F27A23 /* Assets.xcassets in Resources */,
+				D7BA6BE621EF8CF200F45AFC /* Checkmark@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +649,8 @@
 			files = (
 				28EEC0251C7E3B2200300699 /* PickerInlineRow.swift in Sources */,
 				28EEC0331C7E64AB00300699 /* PopoverSelectorRow.swift in Sources */,
+				D7BA6BE021EF8CF200F45AFC /* AddressComponentsRow.swift in Sources */,
+				D7BA6BE321EF8CF200F45AFC /* ATHMultiSelectionSegmentedControl.swift in Sources */,
 				28EEBFF81C7E241200300699 /* SelectableRowType.swift in Sources */,
 				28EEC0201C7E3AD200300699 /* SegmentedRow.swift in Sources */,
 				28EEC01F1C7E3AC800300699 /* LabelRow.swift in Sources */,
@@ -520,9 +660,12 @@
 				28EE46A91C7F685900EFF4A2 /* PushRow.swift in Sources */,
 				28EEC00F1C7E398D00300699 /* FieldRow.swift in Sources */,
 				28EEC02F1C7E49BF00300699 /* SelectorViewController.swift in Sources */,
+				D7BA6BF221EF8CF200F45AFC /* FontPickerRow.swift in Sources */,
 				28EEC0031C7E390300300699 /* DecimalFormatter.swift in Sources */,
 				28EE0FDE1D5E889F00B91340 /* Validation.swift in Sources */,
 				2859CD951C7CF1FD0002982F /* Core.swift in Sources */,
+				D7BA6BF321EF8CF200F45AFC /* ImageCell.swift in Sources */,
+				D7BA6BED21EF8CF200F45AFC /* ColorSwatchView.swift in Sources */,
 				2859CDBE1C7D137D0002982F /* Form.swift in Sources */,
 				280FBE5F1D873CCE00900064 /* RuleClosure.swift in Sources */,
 				28EEC0001C7E36EB00300699 /* SwitchRow.swift in Sources */,
@@ -533,12 +676,17 @@
 				28EEC0231C7E3B1900300699 /* AlertRow.swift in Sources */,
 				28EEC0221C7E3B1300300699 /* ActionSheetRow.swift in Sources */,
 				28EEBFEC1C7E224200300699 /* PresenterRowType.swift in Sources */,
+				D7BA6BFA21EF8CF200F45AFC /* SegmentedRowExt.swift in Sources */,
+				D7BA6BEB21EF8CF200F45AFC /* ColorRow.swift in Sources */,
 				28EEC0211C7E3AD700300699 /* TextAreaRow.swift in Sources */,
 				28EEBFFD1C7E25F100300699 /* Cell.swift in Sources */,
 				28EEC0321C7E64A400300699 /* DatePickerRow.swift in Sources */,
+				D7BA6BF121EF8CF200F45AFC /* eCC_NameRow.swift in Sources */,
 				FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */,
 				28EEBFE81C7E1D7E00300699 /* CellType.swift in Sources */,
+				D7BA6BF421EF8CF200F45AFC /* ImagePickerController.swift in Sources */,
 				8FCCF92320A473E7004793A0 /* DoublePickerInputRow.swift in Sources */,
+				D7BA6BEE21EF8CF200F45AFC /* InlineColorPickerRow.swift in Sources */,
 				28EEC0241C7E3B1D00300699 /* PickerRow.swift in Sources */,
 				28EEC0281C7E3B4B00300699 /* FieldsRow.swift in Sources */,
 				2859CD961C7CF1FD0002982F /* Helpers.swift in Sources */,
@@ -551,30 +699,47 @@
 				B244E6541FE1C94F0026B944 /* AlertOptionsRow.swift in Sources */,
 				28EE46AC1C7F712300EFF4A2 /* DateInlineRow.swift in Sources */,
 				28EEC01C1C7E3A7400300699 /* ButtonRowWithPresent.swift in Sources */,
+				D7BA6BF821EF8CF200F45AFC /* PhoneComponentsRow.swift in Sources */,
 				798C5ADA1EF1E35600A21F52 /* SwipeActions.swift in Sources */,
 				28EEBFF41C7E240000300699 /* RowProtocols.swift in Sources */,
 				28EEBFFE1C7E281F00300699 /* CheckRow.swift in Sources */,
 				2859CDC41C7D19C50002982F /* HeaderFooterView.swift in Sources */,
 				28EEC00C1C7E396000300699 /* SelectorRow.swift in Sources */,
+				D7BA6BF621EF8CF200F45AFC /* ImageRow.swift in Sources */,
+				D7BA6BFF21EF8CF200F45AFC /* SplitRowValue.swift in Sources */,
 				280FBE5D1D87360900900064 /* RuleRange.swift in Sources */,
 				28EEC0161C7E3A3200300699 /* ListCheckRow.swift in Sources */,
+				D7BA6BFD21EF8CF200F45AFC /* SplitRowCell.swift in Sources */,
 				28EEC01D1C7E3A8600300699 /* SliderRow.swift in Sources */,
 				28EEC00B1C7E395700300699 /* OptionsRow.swift in Sources */,
 				28EEC0021C7E37BD00300699 /* ButtonRow.swift in Sources */,
+				D7BA6BE221EF8CF200F45AFC /* ATHMultiSelectionControlSegmentButton.swift in Sources */,
+				D7BA6BF721EF8CF200F45AFC /* NameComponentsRow.swift in Sources */,
 				28EE46A81C7F5D5200EFF4A2 /* SelectableSection.swift in Sources */,
 				28EEBFF61C7E240B00300699 /* InlineRowType.swift in Sources */,
+				D7BA6BF921EF8CF200F45AFC /* RuleValidChars.swift in Sources */,
 				287E7D841D75F9C80065F4DE /* RuleEmail.swift in Sources */,
 				8FCCF8F120A32613004793A0 /* TriplePickerRow.swift in Sources */,
 				28EEBFFB1C7E25C500300699 /* Operators.swift in Sources */,
+				D7BA6BEA21EF8CF200F45AFC /* ColorPickerRow.swift in Sources */,
 				28DB37301CE4F864009E46BA /* Protocols.swift in Sources */,
 				2859CDC01C7D138D0002982F /* Section.swift in Sources */,
 				28EEC0151C7E39C100300699 /* DateRow.swift in Sources */,
 				2859CDE91C7DD78E0002982F /* BaseRow.swift in Sources */,
 				8FCCF92520A4794B004793A0 /* TriplePickerInputRow.swift in Sources */,
+				D7BA6BE421EF8CF200F45AFC /* CheckButtonRow.swift in Sources */,
+				D7BA6BEC21EF8CF200F45AFC /* ColorSwatchCell.swift in Sources */,
+				D7BA6BEF21EF8CF200F45AFC /* UIColorExtension.swift in Sources */,
+				D7BA6C0021EF8CF200F45AFC /* TextAreaRowExt.swift in Sources */,
+				D7BA6BE121EF8CF200F45AFC /* AddtlFieldRows.swift in Sources */,
 				28EEBFF01C7E23F400300699 /* Row.swift in Sources */,
 				28EEC0121C7E399500300699 /* GenericMultipleSelectorRow.swift in Sources */,
+				D7BA6BFE21EF8CF200F45AFC /* SplitRowCellTableView.swift in Sources */,
+				D7BA6BF021EF8CF200F45AFC /* eCC_Helpers.swift in Sources */,
 				28EEC0181C7E3A3D00300699 /* MultipleSelectorViewController.swift in Sources */,
+				D7BA6BFC21EF8CF200F45AFC /* SplitRow.swift in Sources */,
 				28EEC00E1C7E398A00300699 /* DateFieldRow.swift in Sources */,
+				D7BA6BE921EF8CF200F45AFC /* ColorPalettes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
