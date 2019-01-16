@@ -156,6 +156,13 @@ open class _TriplePickerInlineRow<A, B, C> : Row<PickerInlineCell<Tuple3<A, B, C
     public var secondOptions: ((A) -> [B]) = { _ in [] }
     /// Options for third component given the selected value from the first and second components. Will be called often so should be O(1)
     public var thirdOptions: ((A, B) -> [C]) = {_, _ in []}
+    
+    /// Modify the displayed values for the first picker row.
+    public var displayValueForFirstRow: ((A) -> (String)) = { a in return String(describing: a) }
+    /// Modify the displayed values for the second picker row.
+    public var displayValueForSecondRow: ((B) -> (String)) = { b in return String(describing: b) }
+    /// Modify the displayed values for the third picker row.
+    public var displayValueForThirdRow: ((C) -> (String)) = { c in return String(describing: c) }
 
     open var noValueDisplayText: String?
 
@@ -196,6 +203,9 @@ public final class TriplePickerInlineRow<A, B, C> : _TriplePickerInlineRow<A, B,
         inlineRow.firstOptions = firstOptions
         inlineRow.secondOptions = secondOptions
         inlineRow.thirdOptions = thirdOptions
+        inlineRow.displayValueForFirstRow = displayValueForFirstRow
+        inlineRow.displayValueForSecondRow = displayValueForSecondRow
+        inlineRow.displayValueForThirdRow = displayValueForThirdRow
         inlineRow.displayValueFor = self.displayValueFor
         inlineRow.cell.height = { UITableView.automaticDimension }
     }
