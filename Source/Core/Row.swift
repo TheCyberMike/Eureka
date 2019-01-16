@@ -112,12 +112,21 @@ open class RowOf<T>: BaseRow where T: Equatable {
         rules.append(ValidationRuleHelper(validateFn: validFn, rule: rule))
     }
 
+    /// Add an expanded Validation rule set for the Row; during validation it allows access to the Row's and Cell's members
+    /// - Parameter rule: RuleTypeExt object to add
+    public func add<Rule: RuleTypeExt>(rule: Rule) where T == Rule.RowValueType {
+        let validFn: ((T?) -> ValidationError?) = { (val: T?) in
+            return rule.isValidExt(row: self, value: val)
+        }
+        rules.append(ValidationRuleHelper(validateFn: validFn, rule: rule))
+    }
+
     /// Add a Validation rule set for the Row
     /// - Parameter ruleSet: RuleSet<T> set of rules to add
     public func add(ruleSet: RuleSet<T>) {
         rules.append(contentsOf: ruleSet.rules)
     }
-
+    
     public func remove(ruleWithIdentifier identifier: String) {
         if let index = rules.firstIndex(where: { (validationRuleHelper) -> Bool in
             return validationRuleHelper.rule.id == identifier

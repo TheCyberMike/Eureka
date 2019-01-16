@@ -48,6 +48,10 @@ public protocol RuleType: BaseRuleType {
     func isValid(value: RowValueType?) -> ValidationError?
 }
 
+public protocol RuleTypeExt: RuleType {
+    func isValidExt(row: BaseRow, value: RowValueType?) -> ValidationError?
+}
+
 public struct ValidationOptions: OptionSet {
 
     public let rawValue: Int
