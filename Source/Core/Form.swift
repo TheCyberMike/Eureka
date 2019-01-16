@@ -33,6 +33,7 @@ public protocol FormDelegate : class {
     func rowsHaveBeenRemoved(_ rows: [BaseRow], at: [IndexPath])
     func rowsHaveBeenReplaced(oldRows: [BaseRow], newRows: [BaseRow], at: [IndexPath])
     func valueHasBeenChanged(for row: BaseRow, oldValue: Any?, newValue: Any?)
+    func rowsWillBeMoved(movedRows:[BaseRow], sourceIndexes: [IndexPath], destinationIndexes: [IndexPath])
 }
 
 // MARK: Form

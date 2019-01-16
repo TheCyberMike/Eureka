@@ -728,6 +728,9 @@ open class FormViewController: UIViewController, FormViewControllerProtocol, For
         tableView?.reloadRows(at: indexes, with: reloadAnimation(oldRows: oldRows, newRows: newRows))
         tableView?.endUpdates()
     }
+    
+    open func rowsWillBeMoved(movedRows:[BaseRow], sourceIndexes: [IndexPath], destinationIndexes: [IndexPath]) {
+    }
 
     // MARK: Private
 
@@ -900,6 +903,8 @@ extension FormViewController : UITableViewDelegate {
         if sourceIndexPath.row < section.count && destinationIndexPath.row < section.count && sourceIndexPath.row != destinationIndexPath.row {
 
             let sourceRow = form[sourceIndexPath]
+            let delegateValue = section.form!.delegate
+            delegateValue?.rowsWillBeMoved(movedRows:[sourceRow], sourceIndexes: [sourceIndexPath], destinationIndexes: [destinationIndexPath])
             animateTableView = false
             section.remove(at: sourceIndexPath.row)
             section.insert(sourceRow, at: destinationIndexPath.row)
