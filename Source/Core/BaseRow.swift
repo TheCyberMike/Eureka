@@ -36,6 +36,8 @@ open class BaseRow: BaseRowType {
     var callbackOnCellHighlightChanged: (() -> Void)?
     var callbackOnRowValidationChanged: (() -> Void)?
     var _inlineRow: BaseRow?
+    
+    public var retainedObject:Any? = nil
 
     var _cachedOptionsData: Any?
 
@@ -125,6 +127,7 @@ open class BaseRow: BaseRowType {
      Method that can assist in specialize or custom Row and Cell destruction
      */
     open func beingRemovedFromForm() {
+        self.retainedObject = nil
     }
 
     /**
