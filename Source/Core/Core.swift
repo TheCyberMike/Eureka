@@ -906,7 +906,9 @@ extension FormViewController : UITableViewDelegate {
             let delegateValue = section.form!.delegate
             delegateValue?.rowsWillBeMoved(movedRows:[sourceRow], sourceIndexes: [sourceIndexPath], destinationIndexes: [destinationIndexPath])
             animateTableView = false
+            let retainedObject = sourceRow.retainedObject   // do not want to lose any retained object when its a move aka a remove then insert
             section.remove(at: sourceIndexPath.row)
+            sourceRow.retainedObject = retainedObject
             section.insert(sourceRow, at: destinationIndexPath.row)
             animateTableView = true
             // update the accessory view
